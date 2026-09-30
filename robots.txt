@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pl-mpc-humanoid.github.io/sitemap.xml
