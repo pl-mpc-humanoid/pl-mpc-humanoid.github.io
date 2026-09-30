@@ -8,7 +8,7 @@
   ],
   "unchanged_frames_after_opening": 5250,
   "audio_packets_unchanged": true,
-  "source": "/common/home/kb1204/Documents/rewire-icra27/pl_mpc_release/site/static/video/pl-mpc-overview.mp4",
+  "source": "/common/home/kb1204/Documents/rewire-icra27/pl_mpc_release/org_site/static/video/pl-mpc-overview.mp4",
   "source_sha256": "7896e8d878e44f0c9b962c401c895dd53abcf9005a04ca711f6c370c4f938a19",
-  "public_sha256": "08a572d5836e03094ea78bf3eaeddff02cc7436590193191a589d94ae28ee95d"
+  "public_sha256": "e8be7e4b226b73fd4a18f00d7de51bad0aaec506942d64b4db49a73145561cbe"
 }
