@@ -19,8 +19,10 @@
   <meta name="citation_author_institution" content="Rutgers University">
   <meta name="citation_author" content="Abdeslam Boularias">
   <meta name="citation_author_institution" content="Rutgers University">
-  <meta name="citation_publication_date" content="2026">
-  <meta name="citation_pdf_url" content="https://pl-mpc-humanoid.github.io/static/paper/pl-mpc.pdf">
+  <meta name="citation_publication_date" content="2026/09/30">
+  <meta name="citation_arxiv_id" content="2609.39751">
+  <meta name="citation_abstract_html_url" content="https://arxiv.org/abs/2609.39751">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2609.39751">
   <title>PL-MPC | Beyond Policy Alignment</title>
   <link rel="icon" href="static/images/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="static/fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
@@ -43,7 +45,7 @@
 <p class="publication-authors"><a href="https://kowndinya2000.github.io/">Kowndinya Boyalakuntla</a><span>Yuhan Liu</span><a href="https://www.abdeslam.net/">Abdeslam Boularias</a></p>
 <p class="publication-affiliation">Rutgers University</p>
 <p class="hero-description">Learning from planner experience for humanoid control and zero-shot robot transfer.</p>
-<div class="publication-links"><a class="button primary" href="#overview">Watch the film <span class="button-detail">2:59</span></a><a class="button secondary" href="static/paper/pl-mpc.pdf" target="_blank" rel="noopener">Paper ↗</a><a class="text-link" href="https://github.com/Kowndinya2000/pl-mpc" target="_blank" rel="noopener">Code ↗</a></div>
+<div class="publication-links"><a class="button primary" href="#overview">Watch the film <span class="button-detail">2:59</span></a><a class="button secondary" href="https://arxiv.org/abs/2609.39751" target="_blank" rel="noopener">Paper ↗</a><a class="text-link" href="https://github.com/Kowndinya2000/pl-mpc" target="_blank" rel="noopener">Code ↗</a></div>
 </div></header>
 <section class="overview-section" id="overview" aria-labelledby="overview-heading"><div class="container">
 <div class="section-topline"><h2 id="overview-heading">The method in three minutes.</h2><span class="eyebrow">SUPPLEMENTARY FILM</span></div>
@@ -56,7 +58,7 @@
 <div class="demo-heading"><p class="eyebrow">HUMANOID CONTROL</p><h2 id="humanoid-heading">Balance. Recover. Keep moving.</h2><p>Selected rollouts at their original playback speed. Each pair compares PL-MPC with TD-M(PC)<sup>2</sup>.</p></div>
 <div class="segmented-control" role="tablist" aria-label="Humanoid task"><button type="button" role="tab" id="balance-tab" aria-controls="balance-panel" aria-selected="true" tabindex="0">Balance-hard</button><button type="button" role="tab" id="hurdle-tab" aria-controls="hurdle-panel" aria-selected="false" tabindex="-1">Hurdle</button></div>
 <div class="demo-panel" id="balance-panel" role="tabpanel" aria-labelledby="balance-tab"><h3>Full-episode balancing</h3><div class="demo-pair" id="balance-pair" data-pair><div class="pair-videos"><figure class="demo-clip"><div class="clip-label"><strong>PL-MPC</strong><span class="outcome success">Success</span></div><video controls playsinline muted preload="none" poster="static/images/balance_hard_ours_succ_video1-poster.webp" aria-label="PL-MPC: Success"><source src="static/data/videos/balance_hard_ours_succ_video1.mp4" type="video/mp4">Your browser does not support embedded video. <a href="static/data/videos/balance_hard_ours_succ_video1.mp4">Download this clip</a>.</source></video></figure><figure class="demo-clip"><div class="clip-label"><strong>TD-M(PC)<sup>2</sup></strong><span class="outcome ">Falls</span></div><video controls playsinline muted preload="none" poster="static/images/balance_hard_tdmpc_square_fail_video1-poster.webp" aria-label="TD-M(PC)2: Falls"><source src="static/data/videos/balance_hard_tdmpc_square_fail_video1.mp4" type="video/mp4">Your browser does not support embedded video. <a href="static/data/videos/balance_hard_tdmpc_square_fail_video1.mp4">Download this clip</a>.</source></video></figure></div><div class="pair-controls"><button type="button" data-play-pair>Play both ↗</button><button type="button" data-restart-pair>Restart both ↺</button><span>Playback · 1×</span></div></div><p class="demo-caption">In these selected rollouts, PL-MPC maintains balance for the full episode; TD-M(PC)<sup>2</sup> falls.</p><p class="result-line">Mean success across three seeds: <strong>19% vs. 0%</strong>. Best-seed success: 50.9% vs. 0%.</p></div><div class="demo-panel" id="hurdle-panel" role="tabpanel" aria-labelledby="hurdle-tab"><h3>Crossing successive hurdles</h3><div class="demo-pair" id="hurdle-pair" data-pair><div class="pair-videos"><figure class="demo-clip"><div class="clip-label"><strong>PL-MPC</strong><span class="outcome success">Success</span></div><video controls playsinline muted preload="none" poster="static/images/hurdle_ours_succ_video1-poster.webp" aria-label="PL-MPC: Success"><source src="static/data/videos/hurdle_ours_succ_video1.mp4" type="video/mp4">Your browser does not support embedded video. <a href="static/data/videos/hurdle_ours_succ_video1.mp4">Download this clip</a>.</source></video></figure><figure class="demo-clip"><div class="clip-label"><strong>TD-M(PC)<sup>2</sup></strong><span class="outcome ">Falls</span></div><video controls playsinline muted preload="none" poster="static/images/hurdle_tdmpc_square_fail_video1-poster.webp" aria-label="TD-M(PC)2: Falls"><source src="static/data/videos/hurdle_tdmpc_square_fail_video1.mp4" type="video/mp4">Your browser does not support embedded video. <a href="static/data/videos/hurdle_tdmpc_square_fail_video1.mp4">Download this clip</a>.</source></video></figure></div><div class="pair-controls"><button type="button" data-play-pair>Play both ↗</button><button type="button" data-restart-pair>Restart both ↺</button><span>Playback · 1×</span></div></div><p class="demo-caption">In these selected rollouts, PL-MPC clears successive hurdles and completes the task; TD-M(PC)<sup>2</sup> falls.</p><p class="result-line">Mean success across three seeds: <strong>19% vs. 0%</strong>. Best-seed success: 58.0% vs. 0%.</p></div>
-<p class="scope-note">Performance across the broader benchmark is task dependent. See the <a href="static/paper/pl-mpc.pdf" target="_blank" rel="noopener">paper</a> for full results and evaluation details.</p>
+<p class="scope-note">Performance across the broader benchmark is task dependent. See the <a href="https://arxiv.org/abs/2609.39751" target="_blank" rel="noopener">paper</a> for full results and evaluation details.</p>
 </div></section>
 <section class="section robot-section" id="robot" aria-labelledby="robot-heading"><div class="container demo-container">
 <div class="demo-heading"><p class="eyebrow">ZERO-SHOT SIM-TO-REAL</p><h2 id="robot-heading">Learn in simulation. Plan on the robot.</h2><p>Wrench–nut alignment on a KUKA iiwa14, using the simulation-trained world model with online planning and no real-world fine-tuning.</p></div>
@@ -87,7 +89,7 @@
 </div>
 </div></details></div></section>
 <section class="resources-section" id="resources"><div class="container resources-inner"><div><p class="eyebrow">EXPLORE THE WORK</p><h2>Paper and code.</h2><p>The full method and evaluation are in the paper.</p></div><div class="resource-links">
-<a href="static/paper/pl-mpc.pdf" target="_blank" rel="noopener"><span>Paper</span><span>↗</span></a>
+<a href="https://arxiv.org/abs/2609.39751" target="_blank" rel="noopener"><span>Paper</span><span>↗</span></a>
 <a href="https://github.com/Kowndinya2000/pl-mpc" target="_blank" rel="noopener"><span>Code</span><span>↗</span></a>
 <a href="static/video/film_public.mp4?v=e8be7e4b22" download><span>Supplementary video</span><span>↓</span></a>
 <a href="static/paper/pl-mpc-slides.pdf?v=6c715577b4" target="_blank" rel="noopener"><span>Slides</span><span>↗</span></a>
@@ -96,7 +98,9 @@
   title = {Beyond Policy Alignment: Closing the Planning–Learning Loop for Robot Control with Learned World Models},
   author = {Boyalakuntla, Kowndinya and Liu, Yuhan and Boularias, Abdeslam},
   year = {2026},
-  url = {https://pl-mpc-humanoid.github.io/}
+  eprint = {2609.39751},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2609.39751}
 }
 </pre></div></section>
 </main>

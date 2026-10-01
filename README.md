@@ -6,6 +6,6 @@ Kowndinya Boyalakuntla, Yuhan Liu, Abdeslam Boularias
 
 Rutgers University
 
-[Website](https://pl-mpc-humanoid.github.io/) · [Code](https://github.com/Kowndinya2000/pl-mpc) · [Paper](static/paper/pl-mpc.pdf)
+[Website](https://pl-mpc-humanoid.github.io/) · [Code](https://github.com/Kowndinya2000/pl-mpc) · [Paper](https://arxiv.org/abs/2609.39751)
 
 The public film has an attributed opening slide. The original anonymous film is retained in this repository.
